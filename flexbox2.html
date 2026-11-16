@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Flexbox Layout 2</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { display: flex; flex-direction: column; min-height: 100vh; font-family: serif; font-size: 20px; }
+        header, footer { background-color: #e6df85; padding: 25px; }
+        .main { display: flex; flex: 1; }
+        article { flex: 3; padding: 25px; background-color: #ffffff; }
+        aside { flex: 1; padding: 25px; background-color: #f8bbd0; }
+        nav { flex: 1; padding: 25px; background-color: #00d2c6; }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <div class="main">
+        <article>Article</article>
+        <aside>Aside</aside>
+        <nav>Nav</nav>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>

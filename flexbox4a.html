@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Flexbox Layout 4a</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { display: flex; min-height: 100vh; font-family: serif; font-size: 20px; }
+        nav { width: 20%; background-color: #f8bbd0; padding: 25px; }
+        .kanan { display: flex; flex-direction: column; flex: 1; }
+        header, footer { background-color: #e6df85; padding: 25px; }
+        .tengah { display: flex; flex: 1; }
+        article { flex: 3; padding: 25px; background-color: #ffffff; }
+        aside { flex: 1; padding: 25px; background-color: #00e5ff; }
+    </style>
+</head>
+<body>
+    <nav>Nav</nav>
+    <div class="kanan">
+        <header>Header</header>
+        <div class="tengah">
+            <article>Article</article>
+            <aside>Aside</aside>
+        </div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

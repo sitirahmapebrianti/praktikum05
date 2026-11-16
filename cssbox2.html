@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Box 2</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 20px; }
+        .row { clear: both; margin-bottom: 20px; overflow: hidden; }
+        .box { border: 1px solid black; }
+        
+        .header { width: 100%; height: 100px; background-color: #a8d582; }
+        .kuning { width: 22%; height: 180px; background-color: #f4e842; float: left; }
+        .merah { width: 75%; height: 180px; background-color: #ff5722; float: right; }
+        .biru { width: 75%; height: 150px; background-color: #4dd0e1; float: right; }
+        .kuning-bawah { width: 22%; height: 150px; background-color: #f4e842; float: left; }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="box header"></div>
+    </div>
+    <div class="row">
+        <div class="box kuning"></div>
+        <div class="box merah"></div>
+    </div>
+    <div class="row">
+        <div class="box kuning-bawah"></div>
+        <div class="box biru"></div>
+    </div>
+</body>
+</html>
